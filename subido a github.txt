@@ -1,0 +1,273 @@
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo
+dist’: File exists
+                                 dist’: File exists
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo            /Documents/Hola Mundo
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo
+$ git --status
+unknown option: --status
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]   
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P 
+| --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]    
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo
+$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]   
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P 
+| --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]    
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory      
+   init              Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout    
+
+examine the history and state (see also: git help revisions)      
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines 
+matching a pattern
+   log               Show commit 
+logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common 
+history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or 
+more development histories together
+   rebase            Reapply commits on top of another base tip   
+   reset             Reset current HEAD to the specified state    
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'  
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo
+$ git --version
+git version 2.26.2.windows.1
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo
+$ gint init
+bash: gint: command not found
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo
+$ git init
+Initialized empty Git repository in C:/Users/Usuario/Documents/Hola Mundo/.git/
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/base/_formularios.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/base/_imagenes.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/base/_tipografia.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/base/links/_botones.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/base/links/_enlaces.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/base/links/_menus.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/base/reset/_normalize.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/base/reset/_reset.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/estilos.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/layout/_banners.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/layout/_grids.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/layout/_layouts.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/lib/_mixins.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/lib/_placeholders.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in _sass/lib/_variables.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master)
+$ git commit -m "Mi primer commit , Hola Mundo"
+[master (root-commit) 6afd89e] Mi primer commit , Hola Mundo
+ 32 files changed, 647 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 _assets/fonts/.gitkeep
+ create mode 100644 _assets/icons/font/.gitkeep
+ create mode 100644 _assets/icons/svg/.gitkeep
+ create mode 100644 _assets/img/desktop/@1x/.gitkeep
+ create mode 100644 _assets/img/desktop/@2x/.gitkeep
+ create mode 100644 _assets/img/smartphone/@1x/.gitkeep
+ create mode 100644 _assets/img/smartphone/@2x/.gitkeep
+ create mode 100644 _assets/img/smartphone/@3x/.gitkeep
+ create mode 100644 _assets/img/svg/.gitkeep
+ create mode 100644 _assets/img/tablet/@1x/.gitkeep
+ create mode 100644 _assets/img/tablet/@2x/.gitkeep
+ create mode 100644 _assets/video/.gitkeep
+ create mode 100644 _sass/base/_formularios.scss
+ create mode 100644 _sass/base/_imagenes.scss
+ create mode 100644 _sass/base/_tipografia.scss
+ create mode 100644 _sass/base/links/_botones.scss
+ create mode 100644 _sass/base/links/_enlaces.scss
+ create mode 100644 _sass/base/links/_menus.scss
+ create mode 100644 _sass/base/reset/_normalize.scss
+ create mode 100644 _sass/base/reset/_reset.scss
+ create mode 100644 _sass/estilos.scss
+ create mode 100644 _sass/layout/_banners.scss
+ create mode 100644 _sass/layout/_grids.scss
+ create mode 100644 _sass/layout/_layouts.scss
+ create mode 100644 _sass/lib/_mixins.scss
+ create mode 100644 _sass/lib/_placeholders.scss
+ create mode 100644 _sass/lib/_variables.scss
+ create mode 100644 css/estilos.css
+ create mode 100644 index.html
+ create mode 100644 js/.gitkeep
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master)
+$ git remote add origin https://github.com/yeral-guerrero/HolaMundo.git
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master)
+$ git push -u origin master
+To https://github.com/yeral-guerrero/HolaMundo.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/yeral-guerrero/HolaMundo.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+nothing to commit, working tree c/Documents/Hola Mundo (master)lean
+                                 ero/HolaMundo.git
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~ster (fetch first)/Documents/Hola Mundo (master)   o 'https://github.com/yeral-guerrero/HolaMundo.git'
+$ git pull origin master         se the remote contains work that you do    
+                                 sually caused by another repository pushing
+                                 nt to first integrate the remote changes   
+              remote: Enumeratingre pushing again. objects: 3, done.               rwards' in 'git push --help' for details.  
+remote: Counting objects: 100% (3/3), done.                       /Documents/Hola Mundo (master)
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reusedlean 0 (delta 0), pack-reused 0      
+Unpacking objects: 100% (3/3), 67/Documents/Hola Mundo (master)6 bytes | 4.00 KiB/s, done.      
+From https://github.com/yeral-gueone.rrero/HolaMundo                  /3), done.
+ * branch            master     - (2/2), done.> FETCH_HEAD                      0 (delta 0), pack-reused 0
+ * [new branch]      master     -6 bytes | 4.00 KiB/s, done.> origin/master                  rrero/HolaMundo
+fatal: refusing to merge unrelate> FETCH_HEAD   d histories                      > origin/master
+                                 d histories
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master)   /Documents/Hola Mundo (master)
+$ git pull origin master --allow
+-unrelated-histories
+From https://github.com/yeral-guerrero/HolaMundo
+ * branch            master     -> FETCH_HEAD
+CONFLICT (add/add): Merge conflict in README.md
+Auto-merging README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master|MERGING)
+$ git push origin master
+To https://github.com/yeral-guerrero/HolaMundo.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/yeral-guerrero/HolaMundo.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master|MERGING)
+$ git push origin master
+To https://github.com/yeral-guerrero/HolaMundo.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/yeral-guerrero/HolaMundo.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.  
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master|MERGING)
+$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")        
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both added:      README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master|MERGING)
+$ git add .
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master|MERGING)
+$ git status
+On branch master
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   README.md
+
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master|MERGING)
+$ git commit -m "Segundo commit"
+[master 436b67a] Segundo commit
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master)
+$ git remote add origin https://github.com/yeral-guerrero/HolaMundo.git
+fatal: remote origin already exists.
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master)
+$ git push origin master
+Enumerating objects: 39, done.
+Counting objects: 100% (39/39), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (34/34), done.
+Writing objects: 100% (37/37), 6.18 KiB | 632.00 KiB/s, done.
+Total 37 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (8/8), done.
+To https://github.com/yeral-guerrero/HolaMundo.git
+   b2ac7d2..436b67a  master -> master
+
+Usuario@LAPTOP-GEKKI6N3 MINGW64 ~/Documents/Hola Mundo (master)
+$
